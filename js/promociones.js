@@ -35,7 +35,7 @@ const promociones = [
     etiquetaAhorro: "Especial 2x1",
     imagen: "images/promociones/promo-aseo.jpg",
     alt: "Pasillo de artículos de aseo y cuidado del hogar",
-    mensajeWhatsApp: "Hola, deseo saber más del Especial del mes para el hogar."
+    mensajeWhatsApp: "Hola, deseo saber más del Especial del mes."
   },
   {
     id: 4,
@@ -45,8 +45,8 @@ const promociones = [
     vigencia: "Hasta agotar existencias",
     etiquetaAhorro: "Solo 10.900 4 x libras",
     imagen: "images/promociones/banner-mega-week.webp",
-    alt: "Mega Week marcas favoritas",
-    mensajeWhatsApp: "Hola, quisiera conocer las promociones de marcas favoritas."
+    alt: "Promoción frutas",
+    mensajeWhatsApp: "Hola, quisiera información sobre la promoción de frutas & verduras."
   },
   {
     id: 5,
@@ -57,7 +57,7 @@ const promociones = [
     etiquetaAhorro: "$2.800 x libra",
     imagen: "images/promociones/promo-pasabocas.webp",
     alt: "Promoción frutas",
-    mensajeWhatsApp: "Hola, quisiera consultar la promo en pasabocas."
+    mensajeWhatsApp: "Hola, quisiera consultar la promo en frutas & verduras."
   },
   {
     id: 6,
@@ -67,8 +67,8 @@ const promociones = [
     vigencia: "Hasta agotar existencias",
     etiquetaAhorro: "A solo $1.500 Libra",
     imagen: "images/promociones/promo-salsas-aceites.webp",
-    alt: "Promoción salsas y aceites",
-    mensajeWhatsApp: "Hola, quisiera información sobre la promoción de salsas y aceites."
+    alt: "Promoción frutas",
+    mensajeWhatsApp: "Hola, quisiera información sobre la promoción de frutas & verduras."
   }
 ];
 
@@ -103,7 +103,7 @@ function renderPromociones(filtro = "todas") {
             <span style="font-size: 11px; color: var(--tertiary); font-weight: 600;">Descuento</span>
             <span style="font-size: 15px; font-weight: 700; color: var(--secondary);">${p.etiquetaAhorro}</span>
           </div>
-          <a href="https://wa.me/573100000000?text=${encodeURIComponent(p.mensajeWhatsApp)}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 13px; border-radius: 0.5rem;">
+          <a href="https://wa.me/573202474830?text=${encodeURIComponent(p.mensajeWhatsApp)}" target="_blank" rel="noopener noreferrer" class="btn-primary" style="padding: 0.5rem 1rem; font-size: 13px; border-radius: 0.5rem;">
             <span class="material-symbols-outlined" style="font-size: 16px;">chat</span>
             <span>Consultar</span>
           </a>
