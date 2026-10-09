@@ -43,7 +43,7 @@ const promociones = [
     categoria: "Cosecha",
     descripcion: "Disfruta el sabor dulce, fresco y delicioso de la naranja Tangelo.",
     vigencia: "Hasta agotar existencias",
-    etiquetaAhorro: "Solo 10.900 4 x libras",
+    etiquetaAhorro: "Solo 11.800 4 x libras",
     imagen: "images/promociones/banner-mega-week.webp",
     alt: "Promoción frutas",
     mensajeWhatsApp: "Hola, quisiera información sobre la promoción de frutas & verduras."
